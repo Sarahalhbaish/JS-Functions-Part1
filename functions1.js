@@ -9,9 +9,10 @@ printName();
 
 function printAge(year){
     age = 2024 - year;
-    return(age);
+    return age;
 }
-printAge(birth);
+
+console.log(printAge(birth));
 
 
 function printAgeAndName(birth,name){
@@ -33,7 +34,10 @@ function printHello(name, language) {
     }
 }
 
+printHello(myname, "en");
 printHello(myname, "es");
+printHello(myname, "fr");
+printHello(myname, "tr");
 
 function printMax(num1,num2){
     if (num1 > num2){
@@ -47,3 +51,5 @@ function printMax(num1,num2){
 }
 
 printMax(1,2);
+printMax(2,2);
+printMax(2,3);
